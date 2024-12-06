@@ -7,7 +7,9 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        'header_1': 'url("./images/header-1.png")'
+        'header_1': 'url("./images/header-1.png")',
+        'header_2': 'url("./images/header-2.png")',
+        'header_3': 'url("./images/header-3.png")',
       },
       height: {
         'custom': '100vh'
