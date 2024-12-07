@@ -2,6 +2,7 @@ import Header from './components/Header'
 import Navbar from './components/Navbar'
 import './App.css'
 import './styles/style.css'
+import Section from './components/Section'
 
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
     <>
       <Navbar/>
       <Header/>
+      {/* <Section/> */}
     </>
   )
 }

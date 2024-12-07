@@ -13,6 +13,9 @@ export default {
       },
       height: {
         'custom': '100vh'
+      },
+      fontSize: {
+        'custom':'20px'
       }
     },
   },
