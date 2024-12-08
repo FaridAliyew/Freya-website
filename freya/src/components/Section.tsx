@@ -10,10 +10,22 @@ function Section() {
         <p className="text-gray-600 mb-28">All photographs provided for demo purposes only.</p>
       </div>
 
-      <div className="flex justify-center gap-5 border-4 border-red-900 ms-auto me-auto">
-        <img src={img3} className="object-contain w-full" alt="" />
-        <img src={img2} className="object-contain w-full" alt="" />
-        <img src={img1} className="object-contain w-full" alt="" />
+      <div className="grid grid-cols-3 justify-center gap-5">
+        <div className="text-justify">
+          <img src={img3} className="object-contain w-full" alt="img1" />
+          <h1 className="text-center uppercase text-2xl my-4">Residential</h1>
+          <p className="text-gray-500">From Manitoba to Brooklyn, affordable, comfortable and livable houses for families of all shapes and sizes are covered by us. Cras justo odio, dapibus, egestas eget quam lorem ipsum.</p>
+        </div>
+        <div className="text-justify">
+          <img src={img2} className="object-contain w-full" alt="img2" />
+          <h1 className="text-center uppercase text-2xl my-4">Commercial</h1>
+          <p className="text-gray-500">We have also designing interiors for restaurants, bar or office spaces. Cras mattis consectetur purus sit amet fermentum. Cum sociis natoque penatibus et magnis dolor.</p>
+        </div>
+        <div className="text-justify">
+          <img src={img1} className="object-contain w-full" alt="img3" />
+          <h1 className="text-center uppercase text-2xl my-4">Hospitality</h1>
+          <p className="text-gray-500">You need your guests to have an unforgettable experience, Freya Inc. is ready to deliver. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Fusce dapibus.</p>
+        </div>
       </div>
     </section>
   );

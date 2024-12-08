@@ -1,5 +1,5 @@
 body {
-    height: 400vh;
+    height: 600vh;
 }
 
 ::-webkit-scrollbar {
@@ -27,3 +27,4 @@ body {
 .mySwiper .swiper-pagination-bullet-active {
     background-color: #f3f4f6;
 }
+
