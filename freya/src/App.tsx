@@ -15,7 +15,7 @@ function App() {
       <Header />
       <Section />
       <SectionTwo />
-      {/* <SectionThree /> */}
+      <SectionThree />
     </>
   )
 }
