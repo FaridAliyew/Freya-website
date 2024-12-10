@@ -5,6 +5,8 @@ import './styles/style.css'
 import Section from './components/Section'
 import SectionTwo from './components/SectionTwo'
 import SectionThree from './components/SectionThree'
+import SectionFive from './components/SectionFive'
+import SectionSix from './components/SectionSix'
 
 
 function App() {
@@ -16,6 +18,8 @@ function App() {
       <Section />
       <SectionTwo />
       <SectionThree />
+      <SectionFive />
+      <SectionSix />
     </>
   )
 }
