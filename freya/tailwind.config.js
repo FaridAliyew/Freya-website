@@ -12,6 +12,7 @@ export default {
         'header_3': 'url("./images/header-3.png")',
         'banner_1':'url("./images/banner-1.png")',
         'banner_2':'url("./images/banner-2.png")',
+        'banner_3':'url("./images/banner-3.png")',
       },
       height: {
         'custom': '100vh',

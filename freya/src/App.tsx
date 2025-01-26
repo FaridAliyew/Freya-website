@@ -7,6 +7,9 @@ import SectionTwo from './components/SectionTwo'
 import SectionThree from './components/SectionThree'
 import SectionFive from './components/SectionFive'
 import SectionSix from './components/SectionSix'
+import BannerThree from './components/BannerThree'
+import SectionSeven from './components/SectionSeven'
+import BannerFour from './components/BannerFour'
 
 
 function App() {
@@ -20,6 +23,9 @@ function App() {
       <SectionThree />
       <SectionFive />
       <SectionSix />
+      <BannerThree/>
+      <SectionSeven/>
+      {/* <BannerFour/> */}
     </>
   )
 }
