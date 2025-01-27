@@ -10,6 +10,9 @@ import SectionSix from './components/SectionSix'
 import BannerThree from './components/BannerThree'
 import SectionSeven from './components/SectionSeven'
 import BannerFour from './components/BannerFour'
+import SectionEight from './components/SectionEight'
+import SectionNine from './components/SectionNine'
+import Footer from './components/Footer'
 
 
 function App() {
@@ -25,7 +28,10 @@ function App() {
       <SectionSix />
       <BannerThree/>
       <SectionSeven/>
-      {/* <BannerFour/> */}
+      <BannerFour/>
+      <SectionEight/>
+      <SectionNine/>
+      <Footer/>
     </>
   )
 }
