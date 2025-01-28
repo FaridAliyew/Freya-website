@@ -13,7 +13,7 @@ function Navbar() {
             FREYA
           </Link>
           <div className="hidden lg:flex ml-10 space-x-8">
-            <Link to={'/home'}>Home</Link>
+            <Link to={'/'}>Home</Link>
             <Link to={'/about'}>About</Link>
             <Link to={'/projects'}>Projects</Link>
             <Link to={'/blog'}>Blog</Link>

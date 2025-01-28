@@ -13,25 +13,43 @@ import BannerFour from './components/BannerFour'
 import SectionEight from './components/SectionEight'
 import SectionNine from './components/SectionNine'
 import Footer from './components/Footer'
-
+import { Route, Routes } from "react-router-dom";
+import About from './pages/About'
 
 function App() {
 
   return (
     <>
       <Navbar />
-      <Header />
-      <Section />
-      <SectionTwo />
-      <SectionThree />
-      <SectionFive />
-      <SectionSix />
-      <BannerThree/>
-      <SectionSeven/>
-      <BannerFour/>
-      <SectionEight/>
-      <SectionNine/>
-      <Footer/>
+
+      <Routes>
+        <Route path='/' element={
+          <>
+            <Header />
+            <Section />
+            <SectionTwo />
+            <SectionThree />
+            <SectionFive />
+            <SectionSix />
+            <BannerThree />
+            <SectionSeven />
+            <BannerFour />
+            <SectionEight />
+          </>
+        } />
+
+        <Route path='/about' element={
+          <About/>
+        }/>
+
+
+
+        
+      </Routes>
+
+
+      <SectionNine />
+      <Footer />
     </>
   )
 }

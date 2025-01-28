@@ -14,10 +14,12 @@ export default {
         'banner_2':'url("./images/banner-2.png")',
         'banner_3':'url("./images/banner-3.png")',
         'banner_4':'url("./images/banner-4.jpg")',
+        'about-header':'url("./images/about_header.jpg")'
       },
       height: {
         'custom': '100vh',
         'custom2':'550px',
+        'custom3':'480px',
       },
       fontSize: {
         'custom':'20px',
