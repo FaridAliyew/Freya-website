@@ -14,7 +14,9 @@ export default {
         'banner_2':'url("./images/banner-2.png")',
         'banner_3':'url("./images/banner-3.png")',
         'banner_4':'url("./images/banner-4.jpg")',
-        'about-header':'url("./images/about_header.jpg")'
+        'about-header':'url("./images/about_header.jpg")',
+        'about-banner':'url("./images/about-banner1.png")',
+        'about-banner2':'url("./images/about-banner2.png")'
       },
       height: {
         'custom': '100vh',

@@ -14,7 +14,10 @@ import SectionEight from './components/SectionEight'
 import SectionNine from './components/SectionNine'
 import Footer from './components/Footer'
 import { Route, Routes } from "react-router-dom";
-import About from './pages/About'
+import About from './pages/about/About'
+import AboutSection from './pages/about/AboutSection'
+import AboutBanner from './pages/about/AboutBanner'
+import Associates from './pages/about/Associates'
 
 function App() {
 
@@ -39,12 +42,17 @@ function App() {
         } />
 
         <Route path='/about' element={
-          <About/>
-        }/>
+          <>
+            <About />
+            <AboutSection />
+            <AboutBanner/>
+            <Associates/>
+          </>
+        } />
 
 
 
-        
+
       </Routes>
 
 
